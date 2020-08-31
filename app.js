@@ -9,7 +9,7 @@ const fetchUsers = async () => {
 
             for (let i = 0; i < document.getElementsByClassName("carousel-item").length; i++) {
                 const id = users[i].id;
-                document.getElementsByClassName("carousel-item")[i].getElementsByTagName("img")[0].src = "/assets/images/person_" + id + ".jpg";
+                document.getElementsByClassName("carousel-item")[i].getElementsByTagName("img")[0].src = "./assets/images/person_" + id + ".jpg";
                 document.getElementsByClassName("carousel-item")[i].getElementsByTagName("p")[0].innerHTML = '"' + await fetchPost(id) + '"';
                 document.getElementsByClassName("carousel-item")[i].getElementsByTagName("h4")[0].innerHTML = users[i].name;
                 }
