@@ -1,0 +1,12 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__form {
+    background: white;
+    padding: 3rem;
+    max-width: 800px;
+}
+
+

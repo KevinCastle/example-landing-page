@@ -1,0 +1,11 @@
+.footer__container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.footer__text {
+    color: #808080;
+}

@@ -1,0 +1,13 @@
+.gray-section,
+.white-section {
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+
+.gray-section {
+    background: #f6f6f6;
+}
+
+.white-section {
+    background: white;
+}

@@ -1,0 +1,24 @@
+.about__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__container div {
+    width: 100%;
+}
+
+.about__description {
+    color: gray;
+    margin: 2em 0;
+}
+
+.about__image {
+    height: 100%;
+    width: 40vw;
+    margin-right: 100px;
+}
+
+.about__subtitle {
+    line-height: normal;
+}

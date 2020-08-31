@@ -1,0 +1,20 @@
+/*  -----  fonts ---- */
+@import '/assets/fonts/icomoon/style.css';
+@import '/assets/fonts/flaticon/font/_flaticon.css';
+
+/*  -----  components ---- */
+@import '/styles/about.css';
+@import '/styles/button.css';
+@import '/styles/contact.css';
+@import '/styles/content-container.css';
+@import '/styles/features.css';
+@import '/styles/footer.css';
+@import '/styles/normalize.css';
+@import '/styles/header.css';
+@import '/styles/home.css';
+@import '/styles/prototypes.css';
+@import '/styles/sections.css';
+@import '/styles/settings.css';
+@import '/styles/testimonials.css';
+
+@import '/styles/mobile.css';
